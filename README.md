@@ -1,58 +1,27 @@
 # pokemon-tools
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
-## Prerequisites
-
-You will need the following things properly installed on your computer.
-
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/)
-* [Yarn](https://yarnpkg.com/)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+This ember app is used to build a website containing various companion tools for playing Pokémon games.
+[tjvezina.github.io/pokemon-tools](tjvezina.github.io/pokemon-tools)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd pokemon-tools`
-* `yarn install`
+* `yarn`
 
-## Running / Development
+## Running
+
+### Develop
 
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+* Visit [http://localhost:4200](http://localhost:4200)
 
-### Code Generators
+### Build
 
-Make use of the many generators for code, try `ember help generate` for more details
+* Dev build:
+  * `ember build`
+* Prod build:
+  * `ember build --environment production`
 
-### Running Tests
+### Deploy
 
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `yarn lint:hbs`
-* `yarn lint:js`
-* `yarn lint:js --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* Deploy for GitHub Pages:
+  * `ember deploy production`
